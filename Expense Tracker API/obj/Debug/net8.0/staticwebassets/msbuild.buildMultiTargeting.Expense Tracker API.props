@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Expense Tracker API.props" />
+</Project>

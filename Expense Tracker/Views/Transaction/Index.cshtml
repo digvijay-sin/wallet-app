@@ -1,0 +1,141 @@
+﻿@model IEnumerable<Expense_Tracker_Core.Models.TransactionRes>
+
+@{
+    ViewData["PageTitle"] = "Transactions";
+    ViewData["PageActionText"] = "+ New Transaction";
+    ViewData["PageActionUrl"] = "/Transaction/AddOrEdit";
+}
+
+
+@* <table class="table" id="TransactionTable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Amount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Note)                
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)                
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+      @*   @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category.CategoryId);
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Amount);
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Note);
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date);
+                </td>
+            </tr>            
+        }
+    </tbody>
+</table> *@
+
+
+@* 
+@section scripts{
+    <script>
+        $(document).ready(function(){
+           
+            $.ajax({
+                url: "@Url.Action("GetTransactions", "Transaction")",
+                datatype : "json",
+                type : "Get",
+                success : function(response){
+                    $('#TransactionTable tbody').empty();
+                    
+                    $.each(response.transactions, function (index, item) {
+                        var editUrl = "@Url.Action("AddOrEdit", "Transaction")/" + item.transactionId;
+                                var row = `<tr>
+                                    <td>${item.transactionId}</td>
+                                    <td>${item.amount}</td>
+                                    <td>${item.note}</td>
+                                    <td>${item.date}</td>    
+                                    <td>
+                                        <a href="${editUrl}">Edit</a>
+                                    </td>
+                                </tr>`;
+                        $('#TransactionTable tbody').append(row);
+                    });
+                },
+                error : function(xhr, status, error){
+                    console.log(xhr);
+                }
+            });
+        });
+
+    </script>
+} *@
+
+
+<div class="row">
+    <div class="col-md-7">
+        <ejs-grid id="transactions" gridLines="None" allowSorting="true" allowPaging="true">
+            <e-grid-pagesettings pageSize="5"></e-grid-pagesettings>
+            <e-grid-columns>
+                <e-grid-column HeaderText="Category" field="CategoryTitleWithIcon"></e-grid-column>
+                <e-grid-column format="MMM-dd-yy" type="date" textAlign="Left" HeaderText="Date" field="Date" width:110px></e-grid-column>
+                <e-grid-column HeaderText="Amount" textAlign="Right" field="FomattedAmount" width:110px></e-grid-column>
+                <e-grid-column HeaderText="Actions" template="#actionTemplate" width:100px></e-grid-column>
+            </e-grid-columns>
+        </ejs-grid>
+
+
+        <script type="text/x-template" id="actionTemplate">
+            <div style="display: inline-flex; align-items: center;">
+                 <a class="btn btn-sm no-a-decoration" href="@Url.Action("AddOrEdit", "Transaction")/${transactionId}">
+                    <i class="fa-solid fa-pencil fa-lg"></i>
+                </a>
+
+                <form action="@Url.Action("Delete", "Transaction")/${transactionId}" method="post">
+                    @Html.AntiForgeryToken()
+                    <button class="btn btn-sm btn-link no-a-decoration" type="submit"
+                        onclick="return confirm(&quot;Are you sure to delete this record?&quot;)">
+                        <i class="fa-solid fa-trash-can fa-lg text-danger"></i>
+                    </button>
+                </form>
+            </div>
+        </script>       
+
+    </div>
+    <div class="col-md-5">
+        <div class="widget h-100 d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-money-bill-transfer fa-2xl"></i>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+
+    <script>
+        $(document).ready(function () {
+            var grid = document.getElementById('transactions').ej2_instances[0];
+            var ajax = new ej.base.Ajax('/Transaction/GetTransactions', 'GET');
+            ajax.send();
+
+            ajax.onSuccess = function (data) {
+                grid.dataSource = ej.data.DataUtil.parse.parseJson(data).transactions;
+            };
+
+            ajax.onFailure = function (xhr) {
+                console.error('Error fetching data: ', xhr);
+            };
+        });
+
+    </script>
+}

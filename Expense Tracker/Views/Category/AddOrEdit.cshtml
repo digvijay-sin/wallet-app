@@ -1,0 +1,88 @@
+﻿@model Expense_Tracker_Core.Models.CategoryReq
+
+@{    
+    ViewData["PageTitle"] = Model.CategoryId == 0 ? "Create a new category" : "Edit Category";
+}
+
+
+<div class="row">
+    <div class="col-md-7 ">
+        <div class="widget p-5">
+            <form id="CreateCategory">
+                <input type="hidden" id="CategoryId" value="@Model.CategoryId" />
+                <div class="mb-3">
+                    @* <ejs-textbox id="type" ejs-for="Type" placeholder="Type" floatLabelType="Always"></ejs-textbox>
+                    <span asp-validation-for="Type" class="text-danger"></span> *@
+                    <div class='e-btn-group custom-rbt-group'>
+                        <input type="radio" id="radioleft" name="Type" value="Expense" checked="@(Model.Type == "Expense")" />
+                        <label class="e-btn" for="radioleft">Expense</label>
+                        <input type="radio" id="radiomiddle" name="Type" value="Income" checked="@(Model.Type == "Income")" />
+                        <label class="e-btn" for="radiomiddle">Income</label>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    @* <ejs-textbox id="title" name="Title" placeholder="Title" value="Title" floatLabelType="Always"></ejs-textbox> *@
+                    <ejs-textbox id="title" ejs-for="Title" placeholder="Title" floatLabelType="Always"></ejs-textbox>
+                    <span asp-validation-for="Title" class="text-danger display-6" ></span>
+                </div>
+                <div class="mb-3">
+                    <ejs-textbox id="icon" ejs-for="Icon" placeholder="Icon" floatLabelType="Always"></ejs-textbox>
+                    <span asp-validation-for="Icon" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <ejs-button id="submit" type="submit" cssClass="e-success" content="Submit"></ejs-button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="col-md-5">
+        <div class="widget h-100 d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-shapes fa-2xl"></i>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @* @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    } *@
+
+    <script>
+        $(document).ready(function () {
+            $("#CreateCategory").on('submit', function (e) {
+                e.preventDefault();
+                const idVal = $("#CategoryId").val();
+                const typeVal = $("input[name='Type']:checked").val();
+                const titleVal = $("#title").val();
+                const iconVal = $("#icon").val();
+
+
+                const CategoryFormData = {
+                    categoryId : idVal,
+                    type: typeVal,
+                    title: titleVal,
+                    icon: iconVal
+                };
+
+                console.log(JSON.stringify(CategoryFormData));
+
+
+                $.ajax({
+                    url: "@Url.Action("AddOrEdit", "Category")",
+                    type: "post",
+                    contentType: "application/json",
+                    data: JSON.stringify(CategoryFormData),
+                    success: function (response) {
+                    
+                        window.location.href = "/Category";
+                    },
+                    error: function (xhr, status, error) {
+                        console.log(xhr.status);
+                    }
+                });
+            });
+        });
+    </script>
+}

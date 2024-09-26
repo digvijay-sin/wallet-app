@@ -1,0 +1,181 @@
+[
+  {
+    "ContainingType": "Expense_Tracker_API.Controllers.CategoryAPIController",
+    "Method": "AddCategory",
+    "RelativePath": "v1/CategoryAPI/AddCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newCategory",
+        "Type": "Expense_Tracker_Core.Models.CategoryReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense_Tracker_API.Controllers.CategoryAPIController",
+    "Method": "Delete",
+    "RelativePath": "v1/CategoryAPI/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense_Tracker_API.Controllers.CategoryAPIController",
+    "Method": "GetAllCateogries",
+    "RelativePath": "v1/CategoryAPI/GetAllCateogries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense_Tracker_API.Controllers.CategoryAPIController",
+    "Method": "GetCategory",
+    "RelativePath": "v1/CategoryAPI/GetCategory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense_Tracker_API.Controllers.CategoryAPIController",
+    "Method": "UpdateCategory",
+    "RelativePath": "v1/CategoryAPI/UpdateCategory/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "modifiedCategory",
+        "Type": "Expense_Tracker_Core.Models.CategoryReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense_Tracker_API.Controllers.TransactionAPIController",
+    "Method": "AddTransaction",
+    "RelativePath": "v1/TransactionAPI/AddTransaction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newTransaction",
+        "Type": "Expense_Tracker_Core.Models.TransactionReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense_Tracker_API.Controllers.TransactionAPIController",
+    "Method": "DeleteTransaction",
+    "RelativePath": "v1/TransactionAPI/DeleteTransaction/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense_Tracker_API.Controllers.TransactionAPIController",
+    "Method": "GetAllTransactions",
+    "RelativePath": "v1/TransactionAPI/GetAllTransactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense_Tracker_API.Controllers.TransactionAPIController",
+    "Method": "GetTransaction",
+    "RelativePath": "v1/TransactionAPI/GetTransaction/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense_Tracker_API.Controllers.TransactionAPIController",
+    "Method": "UpdateTransaction",
+    "RelativePath": "v1/TransactionAPI/UpdateTransaction/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "modifiedTransaction",
+        "Type": "Expense_Tracker_Core.Models.TransactionReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense_Tracker_API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Expense_Tracker_API.WeatherForecast, Expense Tracker API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

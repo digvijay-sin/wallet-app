@@ -1,0 +1,17 @@
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\bin\Debug\net8.0\Expense Tracker Data.deps.json
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\bin\Debug\net8.0\Expense Tracker Data.runtimeconfig.json
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\bin\Debug\net8.0\Expense Tracker Data.dll
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\bin\Debug\net8.0\Expense Tracker Data.pdb
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\bin\Debug\net8.0\Expense Tracker Core.dll
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\bin\Debug\net8.0\Expense Tracker Core.pdb
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\obj\Debug\net8.0\Expense Tracker Data.csproj.AssemblyReference.cache
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\obj\Debug\net8.0\Expense Tracker Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\obj\Debug\net8.0\Expense Tracker Data.AssemblyInfoInputs.cache
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\obj\Debug\net8.0\Expense Tracker Data.AssemblyInfo.cs
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\obj\Debug\net8.0\Expense Tracker Data.csproj.CoreCompileInputs.cache
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\obj\Debug\net8.0\Expense .699C498A.Up2Date
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\obj\Debug\net8.0\Expense Tracker Data.dll
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\obj\Debug\net8.0\refint\Expense Tracker Data.dll
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\obj\Debug\net8.0\Expense Tracker Data.pdb
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\obj\Debug\net8.0\Expense Tracker Data.genruntimeconfig.cache
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\obj\Debug\net8.0\ref\Expense Tracker Data.dll

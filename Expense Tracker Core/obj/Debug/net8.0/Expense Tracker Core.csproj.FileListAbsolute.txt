@@ -1,0 +1,11 @@
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Core\bin\Debug\net8.0\Expense Tracker Core.deps.json
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Core\bin\Debug\net8.0\Expense Tracker Core.dll
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Core\bin\Debug\net8.0\Expense Tracker Core.pdb
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Core\obj\Debug\net8.0\Expense Tracker Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Core\obj\Debug\net8.0\Expense Tracker Core.AssemblyInfoInputs.cache
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Core\obj\Debug\net8.0\Expense Tracker Core.AssemblyInfo.cs
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Core\obj\Debug\net8.0\Expense Tracker Core.csproj.CoreCompileInputs.cache
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Core\obj\Debug\net8.0\Expense Tracker Core.dll
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Core\obj\Debug\net8.0\refint\Expense Tracker Core.dll
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Core\obj\Debug\net8.0\Expense Tracker Core.pdb
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Core\obj\Debug\net8.0\ref\Expense Tracker Core.dll

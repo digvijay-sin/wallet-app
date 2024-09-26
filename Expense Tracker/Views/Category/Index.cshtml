@@ -1,0 +1,162 @@
+﻿@model IEnumerable<Expense_Tracker_Core.Models.CategoryRes>
+
+@{
+    ViewData["PageTitle"] = "Categories";
+    ViewData["PageActionText"] = "+ New Category";
+    ViewData["PageActionUrl"] = "/Category/AddOrEdit";
+}
+
+@* <h1>Index</h1>
+
+<p>
+    <a asp-action="AddOrEdit">Create New</a>
+</p>
+<table class="table" id="CategoryTable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Icon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Type)
+                
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+       
+    </tbody>
+</table> *@
+
+@*
+@section scripts{
+    <script>
+        $(document).ready(function(){
+            const addOrEditUrl = "@Url.Action("AddOrEdit", "Category")";
+            const deleteUrl = "@Url.Action("Delete", "Category")";
+            const detailsUrl = "@Url.Action("Details", "Category")";
+
+            $.ajax({
+                url: "@Url.Action("GetCategories", "Category")",
+                datatype : "json",
+                type : "get",
+                success : function(response){
+                    $('#CategoryTable tbody').empty();
+                    console.log(JSON.stringify(response.categories));
+                    $.each(response.categories, function (index, item) {
+                        var row = `<tr>
+                                    <td>${item.title}</td>
+                                    <td>${item.icon}</td>
+                                    <td>${item.type}</td>
+                                    <td>
+                                        <a href="${addOrEditUrl}/${item.categoryId}">Edit</a> |
+                                        <a href="${detailsUrl}/${item.categoryId}">Details</a> |
+                                        <a href="${deleteUrl}/${item.categoryId}">Delete</a>
+                                    </td>
+                                </tr>`;
+                        $('#CategoryTable tbody').append(row);
+                    });
+                },
+                error : function(xhr, status, error){
+                    console.log(xhr);
+                }
+            });
+        });
+
+    </script>
+} *@
+
+<div class="row">
+    <div class="col-md-7">
+        <ejs-grid id="categories" gridLines="None" allowSorting="true" allowPaging="true">
+            <e-grid-pagesettings pageSize="5"></e-grid-pagesettings>
+            <e-grid-columns>
+                <e-grid-column HeaderText="Category" field="TitleWithIcon"></e-grid-column>                
+                <e-grid-column HeaderText="Type" template="#typeColumn" width:150px></e-grid-column>
+                <e-grid-column HeaderText="Actions" template="#actionTemplate" width:100px></e-grid-column>
+            </e-grid-columns>
+        </ejs-grid>
+
+        
+        <script type="text/x-template" id="actionTemplate">
+        <div style="display: inline-flex; align-items: center;">
+             <a class="btn btn-sm no-a-decoration" href="@Url.Action("AddOrEdit", "Category")/${categoryId}">
+                <i class="fa-solid fa-pencil fa-lg"></i>
+            </a>            
+           
+            <form action="@Url.Action("Delete", "Category")/${categoryId}" method="post">
+                @Html.AntiForgeryToken()
+                <button class="btn btn-sm btn-link no-a-decoration" type="submit" 
+                    onclick="return confirm(&quot;Are you sure to delete this record?&quot;)">
+                    <i class="fa-solid fa-trash-can fa-lg text-danger"></i>
+                </button>
+            </form>
+        </div>
+        </script>
+
+        <script id="typeColumn" type="text/x-template">
+            ${if(type=="Income")}
+              <span class="badge bg-success">${type}</span>
+            ${else}
+                <span class="badge bg-danger">${type}</span>
+            ${/if}
+        </script>
+      
+
+    </div>
+    <div class="col-md-5">
+        <div class="widget h-100 d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-shapes fa-2xl"></i>
+        </div>
+    </div>
+</div>
+
+@* 
+@section scripts {
+    <script>
+        $(document).ready(function () {
+
+            const addOrEditUrl = "@Url.Action("AddOrEdit", "Category")";
+            const detailsUrl = "@Url.Action("Details", "Category")";
+            const deleteURl = "@Url.Action("Delete", "Category")";
+
+            $.ajax({
+                url: "@Url.Action("GetCategories", "Category")",
+                datatype: "json",
+                type: "get",
+                success: function (response) {
+                    console.log(response.categories);
+
+                    $('#categories').ej2_instances[0].dataSource = response.categories;
+                },
+                error: function (xhr, status, error) {
+                    console.log(xhr);
+                }
+            });
+        });
+    </script>
+} *@
+
+
+@section scripts{
+  
+    <script>
+        $(document).ready(function () {
+            var grid = document.getElementById('categories').ej2_instances[0];
+            var ajax = new ej.base.Ajax('/Category/GetCategories', 'GET');
+            ajax.send();
+            ajax.onSuccess = function (data) {                
+                grid.dataSource = ej.data.DataUtil.parse.parseJson(data).categories;
+            };
+
+            ajax.onFailure = function (xhr) {
+                console.error('Error fetching data: ', xhr);
+            };
+        });       
+       
+    </script>
+}

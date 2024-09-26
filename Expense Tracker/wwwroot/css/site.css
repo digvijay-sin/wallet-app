@@ -1,0 +1,325 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  font-family: "Inter";
+}
+
+
+
+/*.inter-Inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 710;
+    font-style: normal;
+}*/
+
+body {
+  margin-bottom: 60px;
+  background-color : #12161d;
+  color : white;
+  overflow:hidden;
+}
+
+/*.e-bigger {
+    font-size: x-large;
+}*/
+
+/*Buttons*/
+.btn:active, .btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+
+
+/*Hyperlink*/
+.no-a-decoration, .no-a-decoration:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+*:not(.fa-solid):not(.fa):not(.e-icons) {
+    font-family: "Inter";
+}
+
+.e-pager .e-numericitem {
+    background: #212529;
+    color: #e4e6e9;
+}
+
+/*Main-Content*/
+.main-content {
+    margin-left : 250px;
+    overflow-y: auto;
+    height:100vh;
+}
+
+/*Breadcrumb*/
+.e-breadcrumb a, e-breadcrumb a:hover{
+    text-decoration : none !important;
+    color : inherit !important;
+}
+
+/*Paging*/
+.e-pagercontainer {
+    border:none !important;
+}
+
+.e-pager .e-pagercontainer .e-firstpage, .e-pager .e-pagercontainer .e-prevpage, .e-pager .e-pagercontainer .e-firstpagedisabled, .e-pager .e-pagercontainer .e-prevpagedisabled, .e-pager .e-pagercontainer .e-nextpage, .e-pager .e-pagercontainer .e-lastpage, .e-pager .e-pagercontainer .e-nextpagedisabled, .e-pager .e-pagercontainer .e-lastpagedisabled {
+    border:none !important;
+}
+
+.e-pager .e-currentitem {
+    border: none !important;
+}
+
+.e-pager .e-numericitem {
+    border:none !important;
+}
+
+.e-pager div.e-icons.e-pager-default {
+    color:white;
+}
+
+/*Radio Button Group*/
+.e-btn-group.custom-rbt-group {
+    width: 100%;
+}
+
+.e-btn-group.custom-rbt-group label.e-btn{
+    width: 50%;
+}
+
+.custom-rbt-group label.e-btn{
+    box-shadow : none !important;
+    border : 1px solid #fff;
+    background-color : rgb(34 43 51);
+    color : #fff;
+}
+
+.e-btn-group.custom-rbt-group input:checked + label.e-btn {
+    background-color: #fff;
+    color: #212b36;
+    border: 1px solid #fff;
+}
+/*Sidebar*/
+
+#sidebar {
+    background-color: #12161d;
+    border: 1px dashed rgba(75, 82, 85, 0, 24);
+    padding : 10px 20px;
+    overflow: hidden;
+}
+
+    #sidebar .e-menu-wrapper{
+        width: 100%;
+        background-color:inherit;
+    }
+
+    #sidebar .e-close {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #sidebar.e-close .app-logo{
+        display:none;
+    }
+
+    #sidebar.e-close .e-anchor-wrap, #sidebar.e-close .e-menu-item.e-menu-caret-icon {
+        font-size : 0px;
+    }
+
+    #sidebar.e-close .profile-wrapper .titles{
+        display:none !important;
+    }
+
+    #sidebar.e-open .e-anchor-wrap,
+    #sidebar.e-close .e-menu-icon, #sidebar.e-open .e-menu-icon{
+        visibility: visible;
+    }
+
+     #sidebar.e-open #sidebar-toggler:before{
+         content: '\f100';         
+     }
+
+     #sidebar.e-close #sidebar-toggler:before{
+         content: '\f101';         
+     }
+
+
+
+/*Widget*/
+.widget {
+    border-radius : 1rem;
+    background-color : #1a222b;
+}
+.widget.summary > div:first-child {
+    background-color: #222b33;
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.widget.summary > div:first-child i {
+    font-weight : bold;
+}
+
+.widget.income > div:first-child {
+    color:#65da41;
+}
+
+
+.widget.expense > div:first-child {
+    color: #ff4e48;
+}
+
+
+.widget.balance > div:first-child {
+    color: #2aa1ff;
+}
+
+.widget.chart {
+    padding : 5px;
+}
+
+/*Boostrap Class Override*/
+.display-6{
+    font-size:2rem;
+}
+
+/*Navbar*/
+nav.navbar{
+    background-color: rgba(18, 22, 29);
+}
+
+nav.navbar i{
+    padding:10px;
+    border-radius: 50%;
+    font-size:1.2rem;
+    cursor:pointer;
+}
+
+    nav.navbar i:hover, nav.navbar img:hover {
+        cursor: pointer;
+        background-color: #48545f14;
+        transform: scale(1.05) translateZ(0px);
+    }
+
+    nav.navbar{
+        margin-left:250px;
+    }
+
+/*Menu*/
+
+#menu {
+    width:100% !important;
+    background-color: inherit;
+    overflow:hidden;
+}
+
+    #menu .e-menu-item:not(.e-separator) {
+        height:50px;
+        border-radius: 4px;
+    }
+
+    #menu .e-menu-item {
+        box-sizing: border-box;
+    }
+
+        #menu .e-menu-item a {
+            box-sizing: border-box;
+            width: 100%;
+            font-weight:300;
+            color: rgb(171, 163, 152);
+            padding: 7px 5px;
+        }
+
+        #menu .e-anchor-wrap{
+            display : inline-block;
+        }
+
+        #menu .e-menu-item .e-anchor-wrap span.e-menu-icon {
+            color: rgb(171, 163, 152);
+        }
+
+        #menu .e-menu-item.e-separator{
+            border: none;
+            margin:5px 5px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 13px;
+            color: #65da41;
+        }
+
+        
+
+        #menu .e-menu-item.e-separator:not(:first-child){
+            margin-top: 35px;
+            
+        }
+
+/*Profile Pic*/
+
+img.profile-pic{
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+}
+
+.profile-wrapper{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    background-color: rgba(72, 84, 95, 0.12);
+    padding: 16px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.profile-wrapper .titles{
+    line-height:1;
+}
+
+/*Logo*/
+
+.logo-wrapper{
+    height:70px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.app-logo{
+    padding: 10px 10px;
+}
+
+/*Sidebar toggle*/
+
+#sidebar-toggler{
+    padding:10px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor:pointer;
+}
+
+    #sidebar-toggler:hover{
+        cursor:pointer;
+        background-color: #48545f14;
+        transform: scale(1.05) translateZ(0px);
+    }
