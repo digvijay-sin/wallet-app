@@ -8,6 +8,7 @@ D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker API\bin\Debug\net8.0\
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker API\bin\Debug\net8.0\AutoMapper.dll
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker API\bin\Debug\net8.0\Azure.Core.dll
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker API\bin\Debug\net8.0\Azure.Identity.dll
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll

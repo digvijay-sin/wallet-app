@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Expense_Tracker_Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240918092311_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20240927130808_NewDbInit")]
+    partial class NewDbInit
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -45,7 +45,12 @@ namespace Expense_Tracker_Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(10)");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("CategoryId");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Categories");
                 });
@@ -70,22 +75,86 @@ namespace Expense_Tracker_Data.Migrations
                     b.Property<string>("Note")
                         .HasColumnType("nvarchar(75)");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("TransactionId");
 
                     b.HasIndex("CategoryId");
 
+                    b.HasIndex("UserId");
+
                     b.ToTable("Transactions");
+                });
+
+            modelBuilder.Entity("Expense_Tracker_Data.Models.User", b =>
+                {
+                    b.Property<int>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("Email");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(100)")
+                        .HasColumnName("Password");
+
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(20)")
+                        .HasColumnName("Phone");
+
+                    b.HasKey("UserId");
+
+                    b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("Expense_Tracker_Data.Models.Category", b =>
+                {
+                    b.HasOne("Expense_Tracker_Data.Models.User", "User")
+                        .WithMany("Categories")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Expense_Tracker_Data.Models.Transaction", b =>
                 {
                     b.HasOne("Expense_Tracker_Data.Models.Category", "Category")
-                        .WithMany()
+                        .WithMany("Transactions")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Expense_Tracker_Data.Models.User", "User")
+                        .WithMany("Transactions")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Category");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Expense_Tracker_Data.Models.Category", b =>
+                {
+                    b.Navigation("Transactions");
+                });
+
+            modelBuilder.Entity("Expense_Tracker_Data.Models.User", b =>
+                {
+                    b.Navigation("Categories");
+
+                    b.Navigation("Transactions");
                 });
 #pragma warning restore 612, 618
         }

@@ -2,7 +2,10 @@ using Expense_Tracker_Data.Context;
 using Expense_Tracker_Data.Implementation;
 using Expense_Tracker_Data.Interface;
 using Expense_Tracker_Data.MappingService;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using System.Transactions;
 using static System.Net.Mime.MediaTypeNames;
 
@@ -19,11 +22,27 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 
+        
+
         builder.Services.AddScoped<ICategory, CategoryRepository>();
         builder.Services.AddScoped<ITransaction, TransactionRepository>();
         builder.Services.AddAutoMapper(typeof(MappingProfile));
 
         builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("default")));
+
+        builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            .AddJwtBearer(options =>
+            {
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidIssuer = builder.Configuration["Jwt:Issuer"],
+                    ValidAudience = builder.Configuration["Jwt:Audience"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+                };
+            });
 
         var app = builder.Build();
 
@@ -36,6 +55,7 @@ public class Program
 
         app.UseHttpsRedirection();
 
+        app.UseAuthentication();
         app.UseAuthorization();
 
         app.MapControllers();

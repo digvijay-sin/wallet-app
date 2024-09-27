@@ -22,5 +22,13 @@ namespace Expense_Tracker_Data.Models
         [Column(TypeName = "nvarchar(10)")]
         public string Type { get; set; } = "Expense";
 
+        // Foreign Key
+        public int UserId { get; set; }
+
+        [ForeignKey("UserId")]
+        public User User { get; set; }
+
+        public ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
+
     }
 }
