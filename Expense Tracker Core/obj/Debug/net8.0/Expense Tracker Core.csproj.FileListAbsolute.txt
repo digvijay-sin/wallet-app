@@ -5,6 +5,7 @@ D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Core\obj\Debug\net8.0
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Core\obj\Debug\net8.0\Expense Tracker Core.AssemblyInfoInputs.cache
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Core\obj\Debug\net8.0\Expense Tracker Core.AssemblyInfo.cs
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Core\obj\Debug\net8.0\Expense Tracker Core.csproj.CoreCompileInputs.cache
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Core\obj\Debug\net8.0\Expense Tracker Core.sourcelink.json
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Core\obj\Debug\net8.0\Expense Tracker Core.dll
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Core\obj\Debug\net8.0\refint\Expense Tracker Core.dll
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Core\obj\Debug\net8.0\Expense Tracker Core.pdb

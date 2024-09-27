@@ -59,6 +59,7 @@ D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker API\obj\Debug\net8.0\
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker API\obj\Debug\net8.0\Expense Tracker API.csproj.CoreCompileInputs.cache
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker API\obj\Debug\net8.0\Expense Tracker API.MvcApplicationPartsAssemblyInfo.cs
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker API\obj\Debug\net8.0\Expense Tracker API.MvcApplicationPartsAssemblyInfo.cache
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker API\obj\Debug\net8.0\Expense Tracker API.sourcelink.json
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker API\obj\Debug\net8.0\staticwebassets.build.json
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker API\obj\Debug\net8.0\staticwebassets.development.json
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker API\obj\Debug\net8.0\staticwebassets\msbuild.Expense Tracker API.Microsoft.AspNetCore.StaticWebAssets.props

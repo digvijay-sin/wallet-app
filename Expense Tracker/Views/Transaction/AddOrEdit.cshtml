@@ -1,7 +1,7 @@
 ﻿@model Expense_Tracker_Core.Models.TransactionReq
 
 @{
-    ViewData["PageTitle"] = Model.TransactionId == 0 ? "Create a new transaction" : "Edit Transaction";    
+    ViewData["PageTitle"] = Model.TransactionId == 0 ? "Create a new transaction" : "Edit Transaction";
 }
 
 <div class="row">
@@ -10,24 +10,25 @@
             <form id="AddOrEdit">
                 <input type="hidden" id="transactionId" value="@Model.TransactionId" />
                 <div class="mb-3">
-                    <ejs-datepicker id="date" ejs-for="Date" placeholder="Date" floatLabelType="Always" format="MMM-dd-yy"></ejs-datepicker>                    
+                    <ejs-datepicker id="date" ejs-for="Date" placeholder="Date" floatLabelType="Always" format="MMM-dd-yy"></ejs-datepicker>
                 </div>
                 <div class="mb-3">
                     <ejs-dropdownlist id="categoryId" dataSource="@ViewBag.Categories" ejs-for="CategoryId" allowFiltering="true" ignoreAccent="true"
-                    filterType="Contains" popupHeight="220px" placeholder="Categories" floatLabelType="Always">
-                        <e-dropdownlist-fields value="CategoryId" text="TitleWithIcon" ></e-dropdownlist-fields>
+                                      filterType="Contains" popupHeight="220px" placeholder="Categories" floatLabelType="Always">
+                        <e-dropdownlist-fields value="CategoryId" text="TitleWithIcon"></e-dropdownlist-fields>
                     </ejs-dropdownlist>
                     <span asp-validation-for="CategoryId" class="text-danger display-6"></span>
                 </div>
 
                 <div class="mb-3">
                     <ejs-numerictextbox id="amount" value="10" Type="text" placeholder="Amount" min=0 format="₹,0" ejs-for="Amount" floatLabelType="Always"></ejs-numerictextbox>
+                    <span asp-validation-for="Amount" class="text-danger display-6"></span>
                 </div>
                 <div class="mb-3">
-                    <ejs-textbox id="note" ejs-for="Note" placeholder="Note" multiline="true" floatLabelType="Always"></ejs-textbox>
-                    <span asp-validation-for="Note" class="text-danger"></span>
+                    <ejs-textbox id="note" ejs-for="Note" placeholder="Note" multiline="true" floatLabelType="Always"></ejs-textbox>                    
+                    
                 </div>
-              
+
                 <div class="mb-3">
                     <ejs-button id="submit" type="submit" cssClass="e-success" content="Submit"></ejs-button>
                 </div>
@@ -42,44 +43,36 @@
     </div>
 </div>
 
-@section Scripts {
-
-    @* @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    } *@
-  
+@section Scripts {  
 
     <script>
 
         $(document).ready(function () {
             
-            // var options = {
-            //     rules: {
-            //         'Date': { required: true },
-            //         'CategoryId': { required: true },
-            //         'Amount': { required: true },
-            //         'Note': { maxLength: 200 } 
-            //     },
-            //     messages: {
-            //         'Date': { required: 'Please select a date.' },
-            //         'CategoryId': { required: 'Please select a category.' },
-            //         'Amount': { required: 'Please enter an amount.' },
-            //         'Note': { maxLength: 'Note cannot exceed 200 characters.' }
-            //     }
-            // };
+            var options = {
+                rules: {
+                    'Amount': { required: true},
+                    'CategoryId': { required: true},
+                },
+                messages: {
+                    'Amount': { required: "Please enter a reasonable amount" },
+                    'CategoryId': { required: "Please select a category" },                    
+                }
+            };
+            
+            var formObject = new ej.inputs.FormValidator('#AddOrEdit', options);
 
             
-            // var formObject = new ej.inputs.FormValidator('#AddOrEdit', options);
-
-            
-            // formObject.customPlacement = function (element, errorElement) {
-            //     element.parentElement.appendChild(errorElement);
-            // };
+            formObject.customPlacement = function (element, errorElement) {
+                element.parentElement.parentElement.appendChild(errorElement);
+            };
+           
 
             $("#AddOrEdit").on('submit', function (e) {
-                
+
                 e.preventDefault();
-                // if (formObject.validate()) {
+                debugger
+                if (formObject.validate()) {
                     const tIdVal = $("#transactionId").val();
                     const cIdVal = $("#categoryId_hidden").val();
                     const amountVal = $("#amount").val();
@@ -110,12 +103,10 @@
                             console.log(xhr.status);
                         }
                     });
-                // }
-                // else
-                // {
-                //     console.log("Validation failed");
-                // }
-               
+                }
+                else {
+                    console.log(formObject.error);
+                }
             });
         });
     </script>

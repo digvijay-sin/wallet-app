@@ -9,6 +9,7 @@ D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\obj\Debug\net8.0
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\obj\Debug\net8.0\Expense Tracker Data.AssemblyInfoInputs.cache
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\obj\Debug\net8.0\Expense Tracker Data.AssemblyInfo.cs
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\obj\Debug\net8.0\Expense Tracker Data.csproj.CoreCompileInputs.cache
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\obj\Debug\net8.0\Expense Tracker Data.sourcelink.json
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\obj\Debug\net8.0\Expense .699C498A.Up2Date
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\obj\Debug\net8.0\Expense Tracker Data.dll
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker Data\obj\Debug\net8.0\refint\Expense Tracker Data.dll

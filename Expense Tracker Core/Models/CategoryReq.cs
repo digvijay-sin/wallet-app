@@ -10,12 +10,13 @@ namespace Expense_Tracker_Core.Models
 {
     public class CategoryReq
     {
-        public int? CategoryId { get; set; } = 0;
+        public int CategoryId { get; set; }
 
         [Required(ErrorMessage = "Title is Required")]
-        public string Title { get; set; }       
-        public string Icon { get; set; }
-        public string Type { get; set; } = "Expense";
+        public string Title { get; set; }
+        
+        public string? Icon { get; set; }
 
+        public string Type { get; set; } = "Expense";
     }
 }

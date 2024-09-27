@@ -8,7 +8,7 @@
 <div class="row">
     <div class="col-md-7 ">
         <div class="widget p-5">
-            <form id="CreateCategory">
+            <form id="AddOrEdit">
                 <input type="hidden" id="CategoryId" value="@Model.CategoryId" />
                 <div class="mb-3">
                     @* <ejs-textbox id="type" ejs-for="Type" placeholder="Type" floatLabelType="Always"></ejs-textbox>
@@ -26,10 +26,8 @@
                     <span asp-validation-for="Title" class="text-danger display-6" ></span>
                 </div>
                 <div class="mb-3">
-                    <ejs-textbox id="icon" ejs-for="Icon" placeholder="Icon" floatLabelType="Always"></ejs-textbox>
-                    <span asp-validation-for="Icon" class="text-danger"></span>
+                    <ejs-textbox id="icon" ejs-for="Icon" placeholder="Icon" floatLabelType="Always" ></ejs-textbox>
                 </div>
-
                 <div class="mb-3">
                     <ejs-button id="submit" type="submit" cssClass="e-success" content="Submit"></ejs-button>
                 </div>
@@ -45,43 +43,64 @@
 </div>
 
 @section Scripts {
-    @* @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    } *@
 
     <script>
         $(document).ready(function () {
-            $("#CreateCategory").on('submit', function (e) {
+            
+            var options = {
+                rules: {
+                    'Title': { required: true },      
+                    'Icon': { required: false }               
+                },
+                messages: {
+                    'Title': { required: "Please provide a title" }
+                }
+            };
+
+            var formObject = new ej.inputs.FormValidator('#AddOrEdit', options);
+
+
+            formObject.customPlacement = function (element, errorElement) {
+                element.parentElement.parentElement.appendChild(errorElement);
+            };
+
+            $("#AddOrEdit").on('submit', function (e) {
                 e.preventDefault();
-                const idVal = $("#CategoryId").val();
-                const typeVal = $("input[name='Type']:checked").val();
-                const titleVal = $("#title").val();
-                const iconVal = $("#icon").val();
+                if (formObject.validate()) {                
+                
+                    const idVal = $("#CategoryId").val();
+                    const typeVal = $("input[name='Type']:checked").val();
+                    const titleVal = $("#title").val();
+                    const iconVal = $("#icon").val();
 
 
-                const CategoryFormData = {
-                    categoryId : idVal,
-                    type: typeVal,
-                    title: titleVal,
-                    icon: iconVal
-                };
+                    const CategoryFormData = {
+                        categoryId : idVal,
+                        type: typeVal,
+                        title: titleVal,
+                        icon: iconVal
+                    };
 
-                console.log(JSON.stringify(CategoryFormData));
+                    console.log(JSON.stringify(CategoryFormData));
 
 
-                $.ajax({
-                    url: "@Url.Action("AddOrEdit", "Category")",
-                    type: "post",
-                    contentType: "application/json",
-                    data: JSON.stringify(CategoryFormData),
-                    success: function (response) {
+                    $.ajax({
+                        url: "@Url.Action("AddOrEdit", "Category")",
+                        type: "post",
+                        contentType: "application/json",
+                        data: JSON.stringify(CategoryFormData),
+                        success: function (response) {
                     
-                        window.location.href = "/Category";
-                    },
-                    error: function (xhr, status, error) {
-                        console.log(xhr.status);
-                    }
-                });
+                            window.location.href = "/Category";
+                        },
+                        error: function (xhr, status, error) {
+                            console.log(xhr.status);
+                        }
+                    });
+                }else{
+                    console.log(formObject.error);
+                    console.log("Icon value:", $("#icon").val());
+                }
             });
         });
     </script>

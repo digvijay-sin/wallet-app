@@ -216,6 +216,7 @@ D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker\obj\Debug\net8.0\Expe
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker\obj\Debug\net8.0\Expense Tracker.MvcApplicationPartsAssemblyInfo.cache
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker\obj\Debug\net8.0\Expense Tracker.RazorAssemblyInfo.cache
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker\obj\Debug\net8.0\Expense Tracker.RazorAssemblyInfo.cs
+D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker\obj\Debug\net8.0\Expense Tracker.sourcelink.json
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker\obj\Debug\net8.0\staticwebassets.build.json
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker\obj\Debug\net8.0\staticwebassets.development.json
 D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker\obj\Debug\net8.0\staticwebassets\msbuild.Expense Tracker.Microsoft.AspNetCore.StaticWebAssets.props
