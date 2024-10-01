@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\.NET\.NET Core Projects\Expense Tracker\Expense Tracker
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/.NET/.NET Core Projects/Expense Tracker/Expense Tracker/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET/.NET Core Projects/Expense Tracker/Expense Tracker/Views/Auth/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/.NET/.NET Core Projects/Expense Tracker/Expense Tracker/Views/Category/AddOrEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkT3JFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

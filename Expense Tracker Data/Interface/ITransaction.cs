@@ -9,11 +9,11 @@ namespace Expense_Tracker_Data.Interface
 {
     public interface ITransaction
     {
-        Task<IEnumerable<TransactionRes>> GetTransactionsAsync();
-        Task<TransactionRes?> UpdateTransactionAsync(int id, TransactionReq transaction);
-        Task<bool> AddTransactionAsync(TransactionReq transaction);
-        Task<TransactionRes?> GetTransactionAsync(int id);
+        Task<IEnumerable<TransactionRes>> GetTransactionsAsync(int userId);
+        Task<TransactionRes?> UpdateTransactionAsync(int id, TransactionReq transaction, int userId);
+        Task<bool> AddTransactionAsync(TransactionReq transaction, int userId);
+        Task<TransactionRes?> GetTransactionAsync(int id, int userId);
 
-        Task<bool> DeleteTransactionAsync(int id);
+        Task<bool> DeleteTransactionAsync(int id, int userId);
     }
 }

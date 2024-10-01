@@ -13,10 +13,14 @@ namespace Expense_Tracker_Data.MappingService
     {
 
         public MappingProfile() { 
-            CreateMap<CategoryReq, Category>();
+
+            //CreateMap<CategoryReq, Category>()
+            //    .ForMember(dest => dest.UserId, opt => opt.MapFrom(src => src.UserId));
+
             CreateMap<Category, CategoryRes>();
             CreateMap<TransactionReq, Transaction>();
             CreateMap<Transaction, TransactionRes>();
+            CreateMap<User, UserRes>();
         }
     }
 }

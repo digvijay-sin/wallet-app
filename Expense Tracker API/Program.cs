@@ -1,3 +1,4 @@
+using Expense_Tracker_API.Service;
 using Expense_Tracker_Data.Context;
 using Expense_Tracker_Data.Implementation;
 using Expense_Tracker_Data.Interface;
@@ -22,11 +23,13 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 
-        
+
 
         builder.Services.AddScoped<ICategory, CategoryRepository>();
         builder.Services.AddScoped<ITransaction, TransactionRepository>();
+
         builder.Services.AddAutoMapper(typeof(MappingProfile));
+
 
         builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("default")));
 
@@ -44,6 +47,11 @@ public class Program
                 };
             });
 
+        builder.Services.AddScoped<IAuth, AuthRepository>();
+        builder.Services.AddScoped<TokenGenerator>();
+
+        builder.Services.AddAuthorization();
+
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
@@ -56,6 +64,7 @@ public class Program
         app.UseHttpsRedirection();
 
         app.UseAuthentication();
+
         app.UseAuthorization();
 
         app.MapControllers();

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -12,12 +13,19 @@ namespace Expense_Tracker_Data.Models
     {
         [Key]
         public int UserId { get; set; }
+        [Column("Name", TypeName = "nvarchar(50)")]
+        public string Name{ get; set; }
+
         [Column("Phone", TypeName = "nvarchar(20)")]
         public string Phone { get; set; }
+
+        [Column("Username", TypeName = "nvarchar(15)")]
+        
+        public string Username { get; set; }
         [Column("Email", TypeName = "nvarchar(50)")]
         public string Email { get; set; }
         [Column("Password", TypeName = "nvarchar(100)")]
-        public int Password{ get; set; }
+        public string Password{ get; set; }
 
         public ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
         public ICollection<Category> Categories { get; set; } = new List<Category>();

@@ -1,5 +1,41 @@
 [
   {
+    "ContainingType": "Expense_Tracker_API.Controllers.AuthAPIController",
+    "Method": "Authorization",
+    "RelativePath": "v1/AuthAPI/Authorization",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense_Tracker_API.Controllers.AuthAPIController",
+    "Method": "Login",
+    "RelativePath": "v1/AuthAPI/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cred",
+        "Type": "Expense_Tracker_Core.Models.LoginCred",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense_Tracker_API.Controllers.AuthAPIController",
+    "Method": "Signup",
+    "RelativePath": "v1/AuthAPI/Signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Expense_Tracker_API.Controllers.CategoryAPIController",
     "Method": "AddCategory",
     "RelativePath": "v1/CategoryAPI/AddCategory",

@@ -14,6 +14,7 @@ namespace Expense_Tracker_Core.Models
 
         [Required(ErrorMessage = "Title is Required")]
         public string Title { get; set; }
+
         
         public string? Icon { get; set; }
 

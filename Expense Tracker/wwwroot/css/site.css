@@ -323,3 +323,49 @@ img.profile-pic{
         background-color: #48545f14;
         transform: scale(1.05) translateZ(0px);
     }
+
+/*Custom Card*/
+.custom-card {
+    background-color: #1a222b;
+    padding: 40px;
+    height: 100%;
+}
+
+/*Custom input Field*/
+.input-field {    
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background: #1a222b;    
+    color: white;
+    border-bottom: 1px solid white;
+    border-right: none;
+    font-family:"Inter";
+    
+}
+    .input-field::placeholder {
+        
+        color: #888; 
+        font-family: "Inter";
+        opacity: 1; 
+        font-size: 18px;
+    }
+
+    .input-field:focus {
+        outline: none;
+        caret-color: white !important;
+    }
+
+
+    .input-field:-webkit-autofill {
+        caret-color: white !important;
+        -webkit-box-shadow: 0 0 0 1000px #1a222b inset;
+        -webkit-text-fill-color: white;
+    }
+
+        .input-field:-webkit-autofill:focus {
+            caret-color: white !important;
+            background-color: #1a222b !important;
+            color: white !important;
+        }

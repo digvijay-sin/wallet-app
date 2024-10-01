@@ -24,20 +24,28 @@
 
 </head>
 <body class="e-bigger mt-5">
-    <partial name="_Sidebar" />
+    @if(ViewData["isAuth"] == null)
+    {
+        <partial name="_Sidebar" />        
+        
+    }
 
     <div class="dock-target">
-        <nav class="navbar sticky-top">
-            <div class="container-fluid px-2 py-4">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <div>
-                    <i class="fa-solid fa-bell"></i>
-                    <i class="fa-solid fa-message"></i>
-                    <img src="" alt="Profile Picture" />
+        @if (ViewData["isAuth"] == null)
+        {
+            <nav class="navbar sticky-top">
+                <div class="container-fluid px-2 py-4">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <div>
+                        <i class="fa-solid fa-bell"></i>
+                        <i class="fa-solid fa-message"></i>
+                        @* <img src="" alt="Profile Picture" /> *@
+                        <a href="@Url.Action("Logout", "Auth")">Logout</a>
+                    </div>
                 </div>
-            </div>
-        </nav>
-
+            </nav>
+        }
+            
 
         <div class="main-content">
             <div class="container mt-5">
@@ -65,10 +73,13 @@
                                                     }
                                                 </div>
                                             </div>
-                                            @* breadcrum *@
-                                            <ejs-breadcrumb id="breadcrumb" separatorTemplate="@Html.Raw("<span class='fa-solid fa-angle-right'></span>")">
+                                            @if (ViewData["isAuth"] == null)
+                                            {
+                                                @* breadcrum *@
+                                                <ejs-breadcrumb id="breadcrumb" separatorTemplate="@Html.Raw("<span class='fa-solid fa-angle-right'></span>")">
 
-                                            </ejs-breadcrumb>
+                                                </ejs-breadcrumb>
+                                            }
                                         </div>
                                     </div>
                                 </div>

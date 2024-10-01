@@ -129,7 +129,12 @@
             ajax.send();
 
             ajax.onSuccess = function (data) {
-                grid.dataSource = ej.data.DataUtil.parse.parseJson(data).transactions;
+                if(data.status){
+                    window.location.href =  data.redirectUrl;
+                }
+                else{
+                    grid.dataSource = ej.data.DataUtil.parse.parseJson(data).transactions;
+                }
             };
 
             ajax.onFailure = function (xhr) {

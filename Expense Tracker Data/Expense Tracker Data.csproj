@@ -28,4 +28,8 @@
     <ProjectReference Include="..\Expense Tracker Core\Expense Tracker Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

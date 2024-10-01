@@ -149,8 +149,16 @@
             var grid = document.getElementById('categories').ej2_instances[0];
             var ajax = new ej.base.Ajax('/Category/GetCategories', 'GET');
             ajax.send();
-            ajax.onSuccess = function (data) {                
-                grid.dataSource = ej.data.DataUtil.parse.parseJson(data).categories;
+            ajax.onSuccess = function(response) {
+
+                var parsedData = JSON.parse(response);
+                if (parsedData.status) {
+                    window.location.href = parsedData.redirectUrl;
+                    
+                }else{
+                    grid.dataSource = ej.data.DataUtil.parse.parseJson(response).categories;
+                    
+                }                
             };
 
             ajax.onFailure = function (xhr) {

@@ -97,6 +97,11 @@ namespace Expense_Tracker_Data.Migrations
                         .HasColumnType("nvarchar(50)")
                         .HasColumnName("Email");
 
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("Name");
+
                     b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("nvarchar(100)")
@@ -107,7 +112,15 @@ namespace Expense_Tracker_Data.Migrations
                         .HasColumnType("nvarchar(20)")
                         .HasColumnName("Phone");
 
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(15)")
+                        .HasColumnName("Username");
+
                     b.HasKey("UserId");
+
+                    b.HasIndex("Username")
+                        .IsUnique();
 
                     b.ToTable("Users");
                 });
@@ -128,13 +141,13 @@ namespace Expense_Tracker_Data.Migrations
                     b.HasOne("Expense_Tracker_Data.Models.Category", "Category")
                         .WithMany("Transactions")
                         .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("Expense_Tracker_Data.Models.User", "User")
                         .WithMany("Transactions")
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Category");

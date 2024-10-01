@@ -10,15 +10,15 @@ namespace Expense_Tracker_Data.Interface
 {
     public interface ICategory
     {
-        Task<IEnumerable<CategoryRes>> GetCategoriesAsync();
+        Task<IEnumerable<CategoryRes>> GetCategoriesAsync(int userId);
 
-        Task<CategoryRes> GetCategoryAsync(int id);
+        Task<CategoryRes> GetCategoryAsync(int id, int userId);
 
-        Task<bool> DeleteCategoryAsync(int id);
+        Task<bool> DeleteCategoryAsync(int id, int userId);
 
-        Task<CategoryRes> UpdateCategoryAsync(int id, CategoryReq category);
+        Task<CategoryRes> UpdateCategoryAsync(int id, CategoryReq category, int userId);
 
-        Task<bool> AddCategoryAsync(CategoryReq category);
+        Task<bool> AddCategoryAsync(CategoryReq category, int userId);
 
     }
 }

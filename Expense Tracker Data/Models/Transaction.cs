@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -11,9 +12,7 @@ namespace Expense_Tracker_Data.Models
     public class Transaction
     {
         [Key]
-        public int TransactionId { get; set; }
-
-       
+        public int TransactionId { get; set; }       
 
         public int Amount { get; set; }
 
@@ -24,12 +23,14 @@ namespace Expense_Tracker_Data.Models
 
         public int CategoryId { get; set; }
 
-        public int UserId { get; set; } 
+        public int UserId { get; set; }
+        [DeleteBehavior(DeleteBehavior.Restrict)]
 
         [ForeignKey("CategoryId")]
         public Category? Category { get; set; }
 
         [ForeignKey("UserId")]
+        [DeleteBehavior(DeleteBehavior.Restrict)]
         public User User { get; set; }
 
     }

@@ -3,8 +3,72 @@
   "WorkspaceRootPath": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Migrations\\20240927130808_NewDbInit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Expense Tracker Data\\Migrations\\20240927130808_NewDbInit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68ECAA75-BF4F-43E3-8CD7-360B6531204D}|Expense Tracker Core\\Expense Tracker Core.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker core\\models\\categoryres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68ECAA75-BF4F-43E3-8CD7-360B6531204D}|Expense Tracker Core\\Expense Tracker Core.csproj|solutionrelative:expense tracker core\\models\\categoryres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker data\\implementation\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|solutionrelative:expense tracker data\\implementation\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker api\\controllers\\categoryapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|solutionrelative:expense tracker api\\controllers\\categoryapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker data\\interface\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|solutionrelative:expense tracker data\\interface\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\service\\authurlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\service\\authurlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|solutionrelative:expense tracker api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker api\\controllers\\transactionapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|solutionrelative:expense tracker api\\controllers\\transactionapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68ECAA75-BF4F-43E3-8CD7-360B6531204D}|Expense Tracker Core\\Expense Tracker Core.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker core\\models\\transactionres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68ECAA75-BF4F-43E3-8CD7-360B6531204D}|Expense Tracker Core\\Expense Tracker Core.csproj|solutionrelative:expense tracker core\\models\\transactionres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker data\\implementation\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|solutionrelative:expense tracker data\\implementation\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker data\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,180 +79,156 @@
       "RelativeMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|solutionrelative:expense tracker data\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|solutionrelative:expense tracker data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker data\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|solutionrelative:expense tracker data\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|solutionrelative:expense tracker api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker api\\controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|solutionrelative:expense tracker api\\controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|solutionrelative:expense tracker api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|solutionrelative:expense tracker api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|solutionrelative:expense tracker api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker api\\expense tracker api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|solutionrelative:expense tracker api\\expense tracker api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\transaction\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\transaction\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68ECAA75-BF4F-43E3-8CD7-360B6531204D}|Expense Tracker Core\\Expense Tracker Core.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker core\\models\\categoryreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68ECAA75-BF4F-43E3-8CD7-360B6531204D}|Expense Tracker Core\\Expense Tracker Core.csproj|solutionrelative:expense tracker core\\models\\categoryreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68ECAA75-BF4F-43E3-8CD7-360B6531204D}|Expense Tracker Core\\Expense Tracker Core.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker core\\models\\categoryres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68ECAA75-BF4F-43E3-8CD7-360B6531204D}|Expense Tracker Core\\Expense Tracker Core.csproj|solutionrelative:expense tracker core\\models\\categoryres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68ECAA75-BF4F-43E3-8CD7-360B6531204D}|Expense Tracker Core\\Expense Tracker Core.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker core\\models\\transactionreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68ECAA75-BF4F-43E3-8CD7-360B6531204D}|Expense Tracker Core\\Expense Tracker Core.csproj|solutionrelative:expense tracker core\\models\\transactionreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68ECAA75-BF4F-43E3-8CD7-360B6531204D}|Expense Tracker Core\\Expense Tracker Core.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker core\\models\\transactionres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68ECAA75-BF4F-43E3-8CD7-360B6531204D}|Expense Tracker Core\\Expense Tracker Core.csproj|solutionrelative:expense tracker core\\models\\transactionres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker data\\interface\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|solutionrelative:expense tracker data\\interface\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\category\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\category\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\transaction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\transaction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker data\\interface\\itransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|solutionrelative:expense tracker data\\interface\\itransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker data\\mappingservice\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|solutionrelative:expense tracker data\\mappingservice\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker data\\context\\dbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|solutionrelative:expense tracker data\\context\\dbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\service\\categoryurlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\service\\categoryurlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\service\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\service\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\service\\transactionurlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\service\\transactionurlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker api\\expense tracker api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|solutionrelative:expense tracker api\\expense tracker api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|solutionrelative:expense tracker api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker data\\implementation\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|solutionrelative:expense tracker data\\implementation\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker data\\implementation\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|solutionrelative:expense tracker data\\implementation\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker api\\controllers\\transactionapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|solutionrelative:expense tracker api\\controllers\\transactionapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker api\\controllers\\categoryapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|solutionrelative:expense tracker api\\controllers\\categoryapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\service\\categoryurlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\service\\categoryurlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|solutionrelative:expense tracker api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\transaction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\transaction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{68ECAA75-BF4F-43E3-8CD7-360B6531204D}|Expense Tracker Core\\Expense Tracker Core.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker core\\models\\logincred.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68ECAA75-BF4F-43E3-8CD7-360B6531204D}|Expense Tracker Core\\Expense Tracker Core.csproj|solutionrelative:expense tracker core\\models\\logincred.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\transaction\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\transaction\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\category\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\category\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68ECAA75-BF4F-43E3-8CD7-360B6531204D}|Expense Tracker Core\\Expense Tracker Core.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker core\\models\\transactionreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68ECAA75-BF4F-43E3-8CD7-360B6531204D}|Expense Tracker Core\\Expense Tracker Core.csproj|solutionrelative:expense tracker core\\models\\transactionreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker data\\mappingservice\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|solutionrelative:expense tracker data\\mappingservice\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68ECAA75-BF4F-43E3-8CD7-360B6531204D}|Expense Tracker Core\\Expense Tracker Core.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker core\\models\\categoryreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68ECAA75-BF4F-43E3-8CD7-360B6531204D}|Expense Tracker Core\\Expense Tracker Core.csproj|solutionrelative:expense tracker core\\models\\categoryreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker data\\interface\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|solutionrelative:expense tracker data\\interface\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|solutionrelative:expense tracker api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker data\\interface\\itransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|solutionrelative:expense tracker data\\interface\\itransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker data\\implementation\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|solutionrelative:expense tracker data\\implementation\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|solutionrelative:expense tracker data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker api\\service\\tokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|solutionrelative:expense tracker api\\service\\tokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|solutionrelative:expense tracker api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68ECAA75-BF4F-43E3-8CD7-360B6531204D}|Expense Tracker Core\\Expense Tracker Core.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker core\\models\\userres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68ECAA75-BF4F-43E3-8CD7-360B6531204D}|Expense Tracker Core\\Expense Tracker Core.csproj|solutionrelative:expense tracker core\\models\\userres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker data\\context\\dbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|solutionrelative:expense tracker data\\context\\dbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker data\\migrations\\20240930052014_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|solutionrelative:expense tracker data\\migrations\\20240930052014_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker data\\migrations\\20240930052312_addedusername.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6F643E2-D680-47F0-9A13-360680DF103B}|Expense Tracker Data\\Expense Tracker Data.csproj|solutionrelative:expense tracker data\\migrations\\20240930052312_addedusername.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|solutionrelative:expense tracker api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|solutionrelative:expense tracker api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D291BDC8-B534-494E-BAE2-F0EFA4DA5CF0}|Expense Tracker\\Expense Tracker.csproj|solutionrelative:expense tracker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59EFDFD2-AF6C-4BCC-B76C-C93EA8F7BADB}|Expense Tracker API\\Expense Tracker API.csproj|d:\\.net\\.net core projects\\expense tracker\\expense tracker api\\expense tracker api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -210,7 +250,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -218,124 +258,336 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240927130808_NewDbInit.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Migrations\\20240927130808_NewDbInit.cs",
-              "RelativeDocumentMoniker": "Expense Tracker Data\\Migrations\\20240927130808_NewDbInit.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Migrations\\20240927130808_NewDbInit.cs",
-              "RelativeToolTip": "Expense Tracker Data\\Migrations\\20240927130808_NewDbInit.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAowBEAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T13:08:08.783Z",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T12:07:01.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Expense Tracker Data\\Models\\User.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Models\\User.cs",
-              "RelativeToolTip": "Expense Tracker Data\\Models\\User.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Expense Tracker\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAnwDwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T11:50:40.724Z",
+              "WhenOpened": "2024-09-18T09:58:11.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Expense Tracker API\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Expense Tracker API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Title": "CategoryAPIController.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Controllers\\CategoryAPIController.cs",
+              "RelativeDocumentMoniker": "Expense Tracker API\\Controllers\\CategoryAPIController.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Controllers\\CategoryAPIController.cs",
+              "RelativeToolTip": "Expense Tracker API\\Controllers\\CategoryAPIController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T10:26:34.034Z",
+              "WhenOpened": "2024-09-18T10:40:49.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Implementation\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Expense Tracker Data\\Implementation\\CategoryRepository.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Implementation\\CategoryRepository.cs",
+              "RelativeToolTip": "Expense Tracker Data\\Implementation\\CategoryRepository.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAnwDYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T10:48:37.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryRes.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Core\\Models\\CategoryRes.cs",
+              "RelativeDocumentMoniker": "Expense Tracker Core\\Models\\CategoryRes.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Core\\Models\\CategoryRes.cs",
+              "RelativeToolTip": "Expense Tracker Core\\Models\\CategoryRes.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAApwBQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T10:26:28.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAQwJoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T12:38:19.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "IAuth.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Interface\\IAuth.cs",
+              "RelativeDocumentMoniker": "Expense Tracker Data\\Interface\\IAuth.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Interface\\IAuth.cs",
+              "RelativeToolTip": "Expense Tracker Data\\Interface\\IAuth.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvw4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:32:27.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Expense Tracker\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAMwBkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T12:06:15.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Expense Tracker\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:42:46.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAWwC0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T09:47:52.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_SideBar.cshtml",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Shared\\_SideBar.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Shared\\_SideBar.cshtml",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Shared\\_SideBar.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Shared\\_SideBar.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T12:32:47.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthURlService.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Service\\AuthURlService.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Service\\AuthURlService.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Service\\AuthURlService.cs",
+              "RelativeToolTip": "Expense Tracker\\Service\\AuthURlService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:44:00.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Program.cs",
               "RelativeDocumentMoniker": "Expense Tracker API\\Program.cs",
               "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Program.cs",
               "RelativeToolTip": "Expense Tracker API\\Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwCkAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAnwCMAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T10:05:59.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Transaction.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Models\\Transaction.cs",
-              "RelativeDocumentMoniker": "Expense Tracker Data\\Models\\Transaction.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Models\\Transaction.cs",
-              "RelativeToolTip": "Expense Tracker Data\\Models\\Transaction.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAywB4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Controllers\\TransactionController.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "Expense Tracker\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T09:37:37.987Z",
+              "WhenOpened": "2024-09-23T05:12:53.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
+              "Title": "TransactionAPIController.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Controllers\\TransactionAPIController.cs",
+              "RelativeDocumentMoniker": "Expense Tracker API\\Controllers\\TransactionAPIController.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Controllers\\TransactionAPIController.cs",
+              "RelativeToolTip": "Expense Tracker API\\Controllers\\TransactionAPIController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAewCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T06:16:31.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TransactionRes.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Core\\Models\\TransactionRes.cs",
+              "RelativeDocumentMoniker": "Expense Tracker Core\\Models\\TransactionRes.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Core\\Models\\TransactionRes.cs",
+              "RelativeToolTip": "Expense Tracker Core\\Models\\TransactionRes.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAMwCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T09:55:12.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Implementation\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "Expense Tracker Data\\Implementation\\TransactionRepository.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Implementation\\TransactionRepository.cs",
+              "RelativeToolTip": "Expense Tracker Data\\Implementation\\TransactionRepository.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAewEwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T06:02:01.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Expense Tracker Data\\Models\\Category.cs",
               "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Models\\Category.cs",
               "RelativeToolTip": "Expense Tracker Data\\Models\\Category.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAnwB4AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T06:21:20.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\appsettings.json",
-              "RelativeDocumentMoniker": "Expense Tracker API\\appsettings.json",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\appsettings.json",
-              "RelativeToolTip": "Expense Tracker API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-18T12:03:51.937Z",
+              "DocumentIndex": 18,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "Expense Tracker Data\\Models\\Transaction.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Models\\Transaction.cs",
+              "RelativeToolTip": "Expense Tracker Data\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAIA4wBUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T09:37:37.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 19,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Context\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Expense Tracker Data\\Context\\ApplicationDbContext.cs",
               "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Context\\ApplicationDbContext.cs",
               "RelativeToolTip": "Expense Tracker Data\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAnwA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T11:40:22.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Expense Tracker API\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Expense Tracker API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-18T12:03:56.191Z",
+              "DocumentIndex": 20,
+              "Title": "AuthAPIController.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Controllers\\AuthAPIController.cs",
+              "RelativeDocumentMoniker": "Expense Tracker API\\Controllers\\AuthAPIController.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Controllers\\AuthAPIController.cs",
+              "RelativeToolTip": "Expense Tracker API\\Controllers\\AuthAPIController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:26:34.034Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Program.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Program.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Program.cs",
+              "RelativeToolTip": "Expense Tracker\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T10:06:04.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TransactionURLService.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Service\\TransactionURLService.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Service\\TransactionURLService.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Service\\TransactionURLService.cs",
+              "RelativeToolTip": "Expense Tracker\\Service\\TransactionURLService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T06:25:21.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TransactionService.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Service\\TransactionService.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Service\\TransactionService.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Service\\TransactionService.cs",
+              "RelativeToolTip": "Expense Tracker\\Service\\TransactionService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T11:22:56.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Expense Tracker\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Expense Tracker\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-18T12:36:25.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "Expense Tracker API.csproj",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Expense Tracker API.csproj",
               "RelativeDocumentMoniker": "Expense Tracker API\\Expense Tracker API.csproj",
@@ -348,249 +600,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AddOrEdit.cshtml",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Transaction\\AddOrEdit.cshtml",
-              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Transaction\\AddOrEdit.cshtml",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Transaction\\AddOrEdit.cshtml",
-              "RelativeToolTip": "Expense Tracker\\Views\\Transaction\\AddOrEdit.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T05:22:08.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Expense Tracker\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Expense Tracker\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-18T12:36:25.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Expense Tracker\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Expense Tracker\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAiwEYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T09:58:11.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CategoryReq.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Core\\Models\\CategoryReq.cs",
-              "RelativeDocumentMoniker": "Expense Tracker Core\\Models\\CategoryReq.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Core\\Models\\CategoryReq.cs",
-              "RelativeToolTip": "Expense Tracker Core\\Models\\CategoryReq.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAADwvxMAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T10:38:16.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CategoryRes.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Core\\Models\\CategoryRes.cs",
-              "RelativeDocumentMoniker": "Expense Tracker Core\\Models\\CategoryRes.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Core\\Models\\CategoryRes.cs",
-              "RelativeToolTip": "Expense Tracker Core\\Models\\CategoryRes.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAQwAoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T10:26:28.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TransactionReq.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Core\\Models\\TransactionReq.cs",
-              "RelativeDocumentMoniker": "Expense Tracker Core\\Models\\TransactionReq.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Core\\Models\\TransactionReq.cs",
-              "RelativeToolTip": "Expense Tracker Core\\Models\\TransactionReq.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAswBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T05:55:00.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Expense Tracker\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T06:58:28.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "TransactionRes.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Core\\Models\\TransactionRes.cs",
-              "RelativeDocumentMoniker": "Expense Tracker Core\\Models\\TransactionRes.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Core\\Models\\TransactionRes.cs",
-              "RelativeToolTip": "Expense Tracker Core\\Models\\TransactionRes.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwB0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T09:55:12.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AddOrEdit.cshtml",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Category\\AddOrEdit.cshtml",
-              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Category\\AddOrEdit.cshtml",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Category\\AddOrEdit.cshtml",
-              "RelativeToolTip": "Expense Tracker\\Views\\Category\\AddOrEdit.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAIBJwB0AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T10:03:04.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Transaction\\Index.cshtml",
-              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Transaction\\Index.cshtml",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Transaction\\Index.cshtml",
-              "RelativeToolTip": "Expense Tracker\\Views\\Transaction\\Index.cshtml",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAgwGAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T05:26:01.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ICategory.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Interface\\ICategory.cs",
-              "RelativeDocumentMoniker": "Expense Tracker Data\\Interface\\ICategory.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Interface\\ICategory.cs",
-              "RelativeToolTip": "Expense Tracker Data\\Interface\\ICategory.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T10:30:01.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ITransaction.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Interface\\ITransaction.cs",
-              "RelativeDocumentMoniker": "Expense Tracker Data\\Interface\\ITransaction.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Interface\\ITransaction.cs",
-              "RelativeToolTip": "Expense Tracker Data\\Interface\\ITransaction.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAswA0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T05:52:31.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\MappingService\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Expense Tracker Data\\MappingService\\MappingProfile.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\MappingService\\MappingProfile.cs",
-              "RelativeToolTip": "Expense Tracker Data\\MappingService\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T10:32:11.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "DbContextFactory.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Context\\DbContextFactory.cs",
-              "RelativeDocumentMoniker": "Expense Tracker Data\\Context\\DbContextFactory.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Context\\DbContextFactory.cs",
-              "RelativeToolTip": "Expense Tracker Data\\Context\\DbContextFactory.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T11:40:22.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "Expense Tracker\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAYwCkAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-25T12:07:01.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "Expense Tracker\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "Expense Tracker\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAmwJsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-18T10:16:21.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Program.cs",
-              "RelativeDocumentMoniker": "Expense Tracker\\Program.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Program.cs",
-              "RelativeToolTip": "Expense Tracker\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T10:06:04.125Z",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T05:46:25.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "TransactionController.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Controllers\\TransactionController.cs",
-              "RelativeDocumentMoniker": "Expense Tracker\\Controllers\\TransactionController.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Controllers\\TransactionController.cs",
-              "RelativeToolTip": "Expense Tracker\\Controllers\\TransactionController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAlwEQAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T05:12:53.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "TransactionURLService.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Service\\TransactionURLService.cs",
-              "RelativeDocumentMoniker": "Expense Tracker\\Service\\TransactionURLService.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Service\\TransactionURLService.cs",
-              "RelativeToolTip": "Expense Tracker\\Service\\TransactionURLService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAMwAgAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T06:25:21.987Z",
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T11:42:08.678Z",
               "EditorCaption": ""
             },
             {
@@ -601,105 +632,40 @@
               "RelativeDocumentMoniker": "Expense Tracker\\Service\\CategoryURLService.cs",
               "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Service\\CategoryURLService.cs",
               "RelativeToolTip": "Expense Tracker\\Service\\CategoryURLService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T12:02:54.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Expense Tracker\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAWwEgAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Transaction\\Index.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Transaction\\Index.cshtml",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Transaction\\Index.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Transaction\\Index.cshtml",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAgwIUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T09:47:52.286Z",
+              "WhenOpened": "2024-09-23T05:26:01.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "Expense Tracker\\Controllers\\DashboardController.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "Expense Tracker\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAqwHsAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 30,
+              "Title": "LoginCred.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Core\\Models\\LoginCred.cs",
+              "RelativeDocumentMoniker": "Expense Tracker Core\\Models\\LoginCred.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Core\\Models\\LoginCred.cs",
+              "RelativeToolTip": "Expense Tracker Core\\Models\\LoginCred.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T12:06:15.474Z",
+              "WhenOpened": "2024-09-30T05:26:36.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Category\\Index.cshtml",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "Expense Tracker\\Views\\Category\\Index.cshtml",
-              "ViewState": "AgIAAEIAAAAAAAAAAIBJwJkAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T12:38:19.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "_SideBar.cshtml",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Shared\\_SideBar.cshtml",
-              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Shared\\_SideBar.cshtml",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Shared\\_SideBar.cshtml",
-              "RelativeToolTip": "Expense Tracker\\Views\\Shared\\_SideBar.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAIBJwCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-25T12:32:47.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Expense Tracker API\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Expense Tracker API\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T11:08:29.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "TransactionRepository.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Implementation\\TransactionRepository.cs",
-              "RelativeDocumentMoniker": "Expense Tracker Data\\Implementation\\TransactionRepository.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Implementation\\TransactionRepository.cs",
-              "RelativeToolTip": "Expense Tracker Data\\Implementation\\TransactionRepository.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAqwDgAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T06:02:01.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Implementation\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "Expense Tracker Data\\Implementation\\CategoryRepository.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Implementation\\CategoryRepository.cs",
-              "RelativeToolTip": "Expense Tracker Data\\Implementation\\CategoryRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBUAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T10:48:37.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Expense Tracker\\Views\\_ViewImports.cshtml",
@@ -707,64 +673,287 @@
               "RelativeToolTip": "Expense Tracker\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T09:47:20.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T09:47:20.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "TransactionAPIController.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Controllers\\TransactionAPIController.cs",
-              "RelativeDocumentMoniker": "Expense Tracker API\\Controllers\\TransactionAPIController.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Controllers\\TransactionAPIController.cs",
-              "RelativeToolTip": "Expense Tracker API\\Controllers\\TransactionAPIController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAUwDEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T06:16:31.336Z",
-              "EditorCaption": ""
+              "DocumentIndex": 31,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Expense Tracker\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Expense Tracker\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAG0BAAAAAAAAAAAcwHMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-18T10:16:21.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "CategoryAPIController.cs",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Controllers\\CategoryAPIController.cs",
-              "RelativeDocumentMoniker": "Expense Tracker API\\Controllers\\CategoryAPIController.cs",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Controllers\\CategoryAPIController.cs",
-              "RelativeToolTip": "Expense Tracker API\\Controllers\\CategoryAPIController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAqwCUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T10:40:49.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Expense Tracker\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Expense Tracker\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 32,
+              "Title": "AddOrEdit.cshtml",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Transaction\\AddOrEdit.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Transaction\\AddOrEdit.cshtml",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Transaction\\AddOrEdit.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Transaction\\AddOrEdit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T11:42:08.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T05:22:08.055Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 34,
+              "Title": "AddOrEdit.cshtml",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Category\\AddOrEdit.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Category\\AddOrEdit.cshtml",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Category\\AddOrEdit.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Category\\AddOrEdit.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T10:03:04.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Category\\Details.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Category\\Details.cshtml",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Category\\Details.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Category\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T10:25:27.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Signup.cshtml",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Auth\\Signup.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Auth\\Signup.cshtml",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Auth\\Signup.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Auth\\Signup.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T06:01:01.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Category\\Delete.cshtml",
               "RelativeDocumentMoniker": "Expense Tracker\\Views\\Category\\Delete.cshtml",
               "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Category\\Delete.cshtml",
               "RelativeToolTip": "Expense Tracker\\Views\\Category\\Delete.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAwAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T10:25:23.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T10:25:23.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TransactionReq.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Core\\Models\\TransactionReq.cs",
+              "RelativeDocumentMoniker": "Expense Tracker Core\\Models\\TransactionReq.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Core\\Models\\TransactionReq.cs",
+              "RelativeToolTip": "Expense Tracker Core\\Models\\TransactionReq.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T05:55:00.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\MappingService\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Expense Tracker Data\\MappingService\\MappingProfile.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\MappingService\\MappingProfile.cs",
+              "RelativeToolTip": "Expense Tracker Data\\MappingService\\MappingProfile.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T10:32:11.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CategoryReq.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Core\\Models\\CategoryReq.cs",
+              "RelativeDocumentMoniker": "Expense Tracker Core\\Models\\CategoryReq.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Core\\Models\\CategoryReq.cs",
+              "RelativeToolTip": "Expense Tracker Core\\Models\\CategoryReq.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T10:38:16.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ICategory.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Interface\\ICategory.cs",
+              "RelativeDocumentMoniker": "Expense Tracker Data\\Interface\\ICategory.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Interface\\ICategory.cs",
+              "RelativeToolTip": "Expense Tracker Data\\Interface\\ICategory.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T10:30:01.097Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 42,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Expense Tracker API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Expense Tracker API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T11:08:29.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ITransaction.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Interface\\ITransaction.cs",
+              "RelativeDocumentMoniker": "Expense Tracker Data\\Interface\\ITransaction.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Interface\\ITransaction.cs",
+              "RelativeToolTip": "Expense Tracker Data\\Interface\\ITransaction.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvw0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T05:52:31.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "bootstrap-reboot.css",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "RelativeDocumentMoniker": "Expense Tracker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "RelativeToolTip": "Expense Tracker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAQwGkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-20T06:31:15.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Implementation\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "Expense Tracker Data\\Implementation\\AuthRepository.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Implementation\\AuthRepository.cs",
+              "RelativeToolTip": "Expense Tracker Data\\Implementation\\AuthRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:33:30.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Expense Tracker Data\\Models\\User.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Models\\User.cs",
+              "RelativeToolTip": "Expense Tracker Data\\Models\\User.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:50:40.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "TokenGenerator.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Service\\TokenGenerator.cs",
+              "RelativeDocumentMoniker": "Expense Tracker API\\Service\\TokenGenerator.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Service\\TokenGenerator.cs",
+              "RelativeToolTip": "Expense Tracker API\\Service\\TokenGenerator.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA6wB8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:31:04.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\appsettings.json",
+              "RelativeDocumentMoniker": "Expense Tracker API\\appsettings.json",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\appsettings.json",
+              "RelativeToolTip": "Expense Tracker API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-18T12:03:51.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UserRes.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Core\\Models\\UserRes.cs",
+              "RelativeDocumentMoniker": "Expense Tracker Core\\Models\\UserRes.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Core\\Models\\UserRes.cs",
+              "RelativeToolTip": "Expense Tracker Core\\Models\\UserRes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:26:47.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DbContextFactory.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Context\\DbContextFactory.cs",
+              "RelativeDocumentMoniker": "Expense Tracker Data\\Context\\DbContextFactory.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Context\\DbContextFactory.cs",
+              "RelativeToolTip": "Expense Tracker Data\\Context\\DbContextFactory.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T11:40:22.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20240930052014_InitialCreate.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Migrations\\20240930052014_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Expense Tracker Data\\Migrations\\20240930052014_InitialCreate.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Migrations\\20240930052014_InitialCreate.cs",
+              "RelativeToolTip": "Expense Tracker Data\\Migrations\\20240930052014_InitialCreate.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBUAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:20:15.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20240930052312_AddedUsername.cs",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Migrations\\20240930052312_AddedUsername.cs",
+              "RelativeDocumentMoniker": "Expense Tracker Data\\Migrations\\20240930052312_AddedUsername.cs",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker Data\\Migrations\\20240930052312_AddedUsername.cs",
+              "RelativeToolTip": "Expense Tracker Data\\Migrations\\20240930052312_AddedUsername.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:23:13.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T10:25:31.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Expense Tracker API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Expense Tracker API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAgAAAAAAAAAAABRwBEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-18T12:03:56.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "Expense Tracker API\\WeatherForecast.cs",
@@ -772,51 +961,11 @@
               "RelativeToolTip": "Expense Tracker API\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T09:45:17.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T09:45:17.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Category\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Category\\Edit.cshtml",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Category\\Edit.cshtml",
-              "RelativeToolTip": "Expense Tracker\\Views\\Category\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T10:25:31.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Category\\Details.cshtml",
-              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Category\\Details.cshtml",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Views\\Category\\Details.cshtml",
-              "RelativeToolTip": "Expense Tracker\\Views\\Category\\Details.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAIBJwCEAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T10:25:27.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "bootstrap-reboot.css",
-              "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-              "RelativeDocumentMoniker": "Expense Tracker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-              "ToolTip": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-              "RelativeToolTip": "Expense Tracker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-              "ViewState": "AgIAACwAAAAAAAAAAAAuwD0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-20T06:31:15.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 56,
               "Title": "bootstrap-utilities.css",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
               "RelativeDocumentMoniker": "Expense Tracker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
@@ -824,12 +973,11 @@
               "RelativeToolTip": "Expense Tracker\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
               "ViewState": "AgIAAJgDAAAAAAAAAAAswKcDAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-20T06:31:42.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T06:31:42.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 57,
               "Title": "Expense Tracker API",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker API\\Expense Tracker API.csproj",
               "RelativeDocumentMoniker": "Expense Tracker API\\Expense Tracker API.csproj",
@@ -841,7 +989,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 58,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\appsettings.json",
               "RelativeDocumentMoniker": "Expense Tracker\\appsettings.json",
@@ -849,12 +997,11 @@
               "RelativeToolTip": "Expense Tracker\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-18T11:42:09.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T11:42:09.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 59,
               "Title": "Expense Tracker.csproj",
               "DocumentMoniker": "D:\\.NET\\.NET Core Projects\\Expense Tracker\\Expense Tracker\\Expense Tracker.csproj",
               "RelativeDocumentMoniker": "Expense Tracker\\Expense Tracker.csproj",

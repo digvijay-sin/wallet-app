@@ -10,6 +10,10 @@ using Expense_Tracker.Service;
 using Newtonsoft.Json;
 using System.Text;
 using Humanizer;
+using static Expense_Tracker.Controllers.DashboardController;
+using System.Globalization;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Net.Http.Headers;
 
 namespace Expense_Tracker.Controllers
 {
@@ -23,7 +27,6 @@ namespace Expense_Tracker.Controllers
             _http = http;
         }
 
-
         [HttpGet("Category")]
         public IActionResult Index()
         {
@@ -33,15 +36,28 @@ namespace Expense_Tracker.Controllers
         [HttpGet]
         public async Task<IActionResult> GetCategories()
         {
-            var response = await _http.GetAsync(CategoryURLService.GET_ALL_CATEGORIES);
-            if (response.IsSuccessStatusCode)
+            if (HttpContext.Session.GetString("token") != null)
             {
-                var content = await response.Content.ReadAsStringAsync();
+                var token = HttpContext.Session.GetString("token");
+                _http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-                List<CategoryRes>? categories = JsonConvert.DeserializeObject<List<CategoryRes>>(content);
-                return Json(new { categories = categories });
+                var response = await _http.GetAsync(CategoryURLService.GET_ALL_CATEGORIES);
+                if (response.IsSuccessStatusCode)
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+
+                    List<CategoryRes>? categories = JsonConvert.DeserializeObject<List<CategoryRes>>(content);
+                    return Json(new { categories = categories, status = false });
+                }
+                else
+                {
+                    return Json(new { categories = new List<CategoryRes>(), status = false });
+                }
             }
-            return Json(new { categories = new List<CategoryRes>() });
+            else
+            {
+                return Json(new { redirectUrl = "/Auth/Login", status = true });
+            }          
         }
 
 
@@ -54,24 +70,30 @@ namespace Expense_Tracker.Controllers
         [HttpGet, ActionName("AddOrEdit")]
         public async Task<IActionResult> AddOrEdit(int id = 0)
         {
-            if (id == 0)
+            if (HttpContext.Session.GetString("token") != null)
             {
-                CategoryReq defaultCategory = new CategoryReq();
-                return View(defaultCategory);
+                if (id == 0)
+                {
+                    CategoryReq defaultCategory = new CategoryReq();
+                    return View(defaultCategory);
+                }
+                else
+                {
+                    var category = await GetCategory(id);
+                    CategoryReq _category = new CategoryReq
+                    {
+                        CategoryId = category.CategoryId,
+                        Icon = category.Icon,
+                        Title = category.Title,
+                        Type = category.Type
+                    };
+                    return View(_category);
+                }
             }
             else
             {
-                var category = await GetCategory(id);
-                CategoryReq _category = new CategoryReq
-                {
-                    CategoryId = category.CategoryId,
-                    Icon = category.Icon,
-                    Title = category.Title,
-                    Type = category.Type
-                };
-                return View(_category);
+                return RedirectToAction("Login", "Auth");
             }
-
         }
 
 
@@ -79,31 +101,37 @@ namespace Expense_Tracker.Controllers
         //[ValidateAntiForgeryToken]
         public async Task<IActionResult> AddOrEdit([FromBody] CategoryReq category)
         {
-            if (category.CategoryId == 0)
+            if (HttpContext.Session.GetString("token") != null)
             {
-                var _category = JsonConvert.SerializeObject(category);
-                var postNewCategory = new StringContent(_category, Encoding.UTF8, "application/json");
-                var response = await _http.PostAsync(CategoryURLService.ADD_CATEGORY, postNewCategory);
-                if (response.IsSuccessStatusCode)
+                var token = HttpContext.Session.GetString("token");
+                _http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+                if (category.CategoryId == 0)
                 {
-                    var content = response.Content.ReadAsStringAsync();
-                    return Json(new { redirectUrl = Url.Action("Index", "Category")});
+                    var _category = JsonConvert.SerializeObject(category);
+                    var postNewCategory = new StringContent(_category, Encoding.UTF8, "application/json");
+                    var response = await _http.PostAsync(CategoryURLService.ADD_CATEGORY, postNewCategory);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var content = response.Content.ReadAsStringAsync();
+                        return Json(new { redirectUrl = Url.Action("Index", "Category") });
+                    }
+                    return View(category);
                 }
-                return View(category);
-            }
-            else
-            {
-                var _category = JsonConvert.SerializeObject(category);
-                var putCategory = new StringContent(_category, Encoding.UTF8, "application/json");
-                var response = await _http.PutAsync(CategoryURLService.UPDATE_CATEGORY + category.CategoryId, putCategory);
-                if (response.IsSuccessStatusCode)
+                else
                 {
-                    var content = response.Content.ReadAsStringAsync();
-                    return Json(new { redirectUrl = Url.Action("Index", "Category") });
+                    var _category = JsonConvert.SerializeObject(category);
+                    var putCategory = new StringContent(_category, Encoding.UTF8, "application/json");
+                    var response = await _http.PutAsync(CategoryURLService.UPDATE_CATEGORY + category.CategoryId, putCategory);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var content = response.Content.ReadAsStringAsync();
+                        return Json(new { redirectUrl = Url.Action("Index", "Category") });
+                    }
+                    return View(category);
                 }
-                return View(category);
             }
 
+            return Json(new { redirectUrl = Url.Action("Login", "Auth")});
         }
 
 
@@ -142,13 +170,20 @@ namespace Expense_Tracker.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var response = await _http.DeleteAsync(CategoryURLService.DELETE_CATEGORY + id);
-            if (response.IsSuccessStatusCode)
+            if (HttpContext.Session.GetString("token") != null)
             {
-                var content = response.Content.ReadAsStringAsync();
-                return RedirectToAction("Index");
+                var token = HttpContext.Session.GetString("token");
+                _http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+                var response = await _http.DeleteAsync(CategoryURLService.DELETE_CATEGORY + id);
+                if (response.IsSuccessStatusCode)
+                {
+                    var content = response.Content.ReadAsStringAsync();
+                    return RedirectToAction("Index");
+                }
+                return View();
             }
-            return View();
+            return RedirectToAction("Login", "Auth");
         }
 
 

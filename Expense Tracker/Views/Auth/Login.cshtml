@@ -1,0 +1,67 @@
+﻿@model Expense_Tracker_Core.Models.LoginCred
+@{    
+    ViewData["isAuth"] = "Login";
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="custom-card">
+            <div class="d-flex justify-content-center fw-bold mb-3">
+                <h1>Login</h1>
+            </div>
+            <form id="loginForm">
+                <div class="col-auto mb-4">
+                    <input asp-for="Username" id="username" class="input-field " placeholder="Enter Username">
+                    <span asp-validation-for="Username" class="text-danger h6"></span>
+                </div>
+                <div class="col-auto mb-4">
+                    <input asp-for="Password"  id="password" class="input-field" placeholder="Enter Password">
+                    <span asp-validation-for="Password" class="text-danger h6"></span>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary w-50">Login</button>
+                </div>
+            </form>
+        </div>       
+    </div>    
+</div>
+
+
+@section scripts{
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+
+    <script>
+
+        $(document).ready(function () {
+           
+            $("#loginForm").on("submit", function (event) {
+
+                event.preventDefault();
+
+                let inputs = $("#loginForm").find("input");
+                let loginForm = {};
+                $.each(inputs, (index, item) => {
+                    loginForm[$(item).attr("name")] = $(item).val();
+                });
+                console.log(JSON.stringify(loginForm));
+
+                $.ajax({
+                    url: "@Url.Action("Login", "Auth")",
+                    type: "post",
+                    contentType: "application/json",
+                    data: JSON.stringify(loginForm),
+                    
+                    success: function (response) {
+                        debugger
+                        console.log(response.redirectUrl);
+                        window.location.href = response.redirectUrl;
+                    },
+                    error: function (xhr, status, error) {
+                        console.log(xhr.status);
+                    }
+                });
+            });
+        });
+    </script>
+}
+

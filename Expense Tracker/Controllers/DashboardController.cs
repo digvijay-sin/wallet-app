@@ -1,7 +1,10 @@
-﻿using Expense_Tracker_Core.Models;
+﻿using Expense_Tracker.Service;
+using Expense_Tracker_Core.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ViewFeatures.Buffers;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Newtonsoft.Json;
+using NuGet.Common;
 using System.Globalization;
 
 namespace Expense_Tracker.Controllers
@@ -9,46 +12,42 @@ namespace Expense_Tracker.Controllers
     public class DashboardController : Controller
     {
         private readonly HttpClient _http;
+        private readonly TransactionService _transactService;
 
-        public DashboardController(HttpClient http)
+        public DashboardController(HttpClient http, TransactionService transactService)
         {
             _http = http;
+            _transactService = transactService;
         }
 
-        [HttpGet("Dashboard")]
-        [HttpGet("")]
+        [HttpGet("Dashboard")]        
         public async Task<IActionResult> Index()
         {
-
-            // Last 7 days transaction
-            DateTime StartDate = DateTime.Today.AddDays(-6);
-            DateTime EndDate = DateTime.Today;
-
-            TransactionController transact = new TransactionController(_http);
-
-            var transactionsAnonymous = await transact.GetTransactions();
-
-            List<TransactionRes> SelectedTransactions = new List<TransactionRes>();
-            var transactions = new List<TransactionRes>();
-            if (transactionsAnonymous is JsonResult jsonResult)
+            if (HttpContext.Session.GetString("token") != null)
             {
-                var transactionProperty = jsonResult.Value.GetType().GetProperty("transactions");
-
-                if (transactionProperty != null)
+                // Last 7 days transaction
+                DateTime StartDate = DateTime.Today.AddDays(-6);
+                DateTime EndDate = DateTime.Today;
+                List<TransactionRes>? transactions = await _transactService.GetTransactionsAsync(HttpContext.Session.GetString("token"));
+                if (transactions == null)
                 {
-                    transactions = transactionProperty.GetValue(jsonResult.Value) as List<TransactionRes>;
-                    // Filter based on date
-                    SelectedTransactions = transactions.Where(y => y.Date >= StartDate && y.Date <= EndDate).ToList();
+                    ViewBag.TotalIncome = 0.ToString("C0");
+                    ViewBag.TotalExpense = 0.ToString("C0");
+                    ViewBag.Balance = 0.ToString("C0");
+                    return View();
                 }
+
+                transactions = transactions.Where(y => y.Date >= StartDate && y.Date <= EndDate).ToList();
+
                 // Total Income
-                int TotalIncome = SelectedTransactions
+                int TotalIncome = transactions
                     .Where(i => i.Category.Type == "Income")
                     .Sum(j => j.Amount);
 
                 ViewBag.TotalIncome = TotalIncome.ToString("C0");
 
                 // Total Expense
-                int TotalExpense = SelectedTransactions
+                int TotalExpense = transactions
 
                     .Where(i => i.Category.Type == "Expense")
                     .Sum(j => j.Amount);
@@ -62,7 +61,7 @@ namespace Expense_Tracker.Controllers
                 ViewBag.Balance = String.Format(culture, "{0:C0}", Balance);
 
                 //Doughnut Chart - Expense By Category
-                ViewBag.DoughnutChartData = SelectedTransactions
+                ViewBag.DoughnutChartData = transactions
                     .Where(t => t.Category.Type == "Expense")
                     .GroupBy(c => c.Category.CategoryId)
                     .Select(k => new
@@ -76,7 +75,7 @@ namespace Expense_Tracker.Controllers
 
                 //Spline Chart - Income Vs Expense
                 // Income
-                List<SplineChartData> IncomeSummary = SelectedTransactions
+                List<SplineChartData> IncomeSummary = transactions
                     .Where(i => i.Category.Type == "Income")
                     .GroupBy(j => j.Date)
                     .Select(k => new SplineChartData()
@@ -87,7 +86,7 @@ namespace Expense_Tracker.Controllers
                     .ToList();
 
                 //Expense
-                List<SplineChartData> ExpenseSummary = SelectedTransactions
+                List<SplineChartData> ExpenseSummary = transactions
                     .Where(i => i.Category.Type == "Expense")
                     .GroupBy(j => j.Date)
                     .Select(k => new SplineChartData()
@@ -117,17 +116,15 @@ namespace Expense_Tracker.Controllers
 
 
                 //Recent Transactions
-                ViewBag.RecentTransactions =  transactions
+                ViewBag.RecentTransactions = transactions
                                     .OrderByDescending(i => i.Date)
                                     .Take(5);
+                return View();
             }
             else
             {
-                ViewBag.TotalIncome = 0.ToString("C0");
-                ViewBag.TotalExpense = 0.ToString("C0");
-                ViewBag.Balance = 0.ToString("C0");                
-            }
-            return View();
+                return Redirect("Auth/Login");
+            }       
         }
 
         public class SplineChartData
